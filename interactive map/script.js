@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize the map
     const map = L.map('map').setView([40.7128, -74.0060], 13);
 
-    // Add the tile layer (you can change the tile provider if desired)
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
